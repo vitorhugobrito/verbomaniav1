@@ -11,8 +11,8 @@ function App() {
   return (
     <BrowserRouter>
     <Routes>
-        <Route path="/" exact element={<Initial/>}></Route>
-        <Route path="/jogar" element={<Home/>}></Route>
+        <Route path="/verbomaniav1" exact element={<Initial/>}></Route>
+        <Route path="/verbomaniav1/jogar" element={<Home/>}></Route>
     </Routes>
     </BrowserRouter>
   )
